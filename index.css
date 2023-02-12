@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0vw;
     width: 100vw;
+    height: 100vh;
     background-color: #181818
 }
 
@@ -10,11 +11,10 @@ body{
 }
 
 nav{
-    border-bottom:solid white 2px ;
     padding: 10px;
-    width: 100%;
+    border-bottom:solid white 2px ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: aliceblue;
     font-size: large;
 }
@@ -24,7 +24,13 @@ nav{
     align-items: center;
 }
 
-.logo{
+.perfil{
     display: flex;
+    align-items: center;
 }
+
+.iconperfil{
+    width: 35px;
+}
+
 
