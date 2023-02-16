@@ -1,8 +1,6 @@
 body{
     margin: 0;
-    padding: 0vw;
-    width: 100vw;
-    height: 100vh;
+    padding: 0;
     background-color: #181818
 }
 
@@ -13,8 +11,8 @@ body{
 nav{
     padding: 10px;
     border-bottom:solid white 2px ;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto;
     color: aliceblue;
     font-size: large;
 }
@@ -24,6 +22,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    justify-self: center;
+    grid-column: 2;
 }
 
 p{
@@ -34,6 +34,12 @@ p{
 .perfil{
     display: flex;
     align-items: center;
+    grid-column: 3;
+    justify-content: end;
+}
+
+.perfil svg {
+    width: 3rem;
 }
 
 .iconperfil{
@@ -44,47 +50,101 @@ p{
 
 
 .icone{
-    width: 800px;
+    width: 600px;
 }
 
 .card1{
-    height: 85%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly ;
     align-items: center;
     border-bottom: solid 2px aliceblue;
+    width: 100%;
 }
+
+.card1 img {
+    padding: 2rem;
+    height: 40rem;
+}
+
+
 
 .resumo{
     color: aliceblue;
-    width: 500px;
+    width:500px;
+    height: 200 px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: small;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;  
+}
+
+.card2 h1{
+    color: #FFFFFF;
+    font-size: 40PX;
+    height: 30px;
+    font-family: "Press Start 2P";
+}
+
+.card2 p{
+    color: #969595;
+    font-size: 25PX;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
+
 .card2{
-    display: grid;
+    display: flex;
+    align-items: center;
     filter: blur(5);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     padding: 5rem;
+    border-bottom: aliceblue solid 2px;
+    justify-content: space-evenly;
 }
+
+
 
 .card2-img {
     filter: blur(1);
-    grid-area: 1 / -1;
-    width: 100%;
-    height: 60rem;
+    opacity: 45%;
+    filter: drop-shadow(6px 6px 0px rgba(0, 0, 0, 0.3));  
+    width: 45rem;
+    height: 100%;
     object-fit: cover;
     object-position: center center;
+    border-radius: 10px;
 }
 
 .card2 button {
-    grid-area: 1 / -1;
     place-self: center;
-    width: 200px;
-    height: 50px;
+    width: 300px;
+    height: 100px;
+    color: aliceblue;
+    background-color: #2D1EA9;
+    text-align: center;
+    font-size: 40px;
 }
 
+.card2 svg{
+    height: 20px;
+    align-items: flex-end;
+}
+
+
+.sobre{
+    padding: 1rem;
+    font-size:20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
