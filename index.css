@@ -80,22 +80,41 @@ p{
 
 
 
-.icone{
-    width: 600px;
-}
-
 .card1{
+    background-image: url(imagens/gif2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
     display: flex;
-    justify-content: space-evenly ;
     align-items: center;
-    border-bottom: solid 2px aliceblue;
-    width: 100%;
+    
+    
 }
 
-.card1 img {
-    padding: 2rem;
-    height: 40rem;
+
+.textEmpre{
+    margin: 0px auto;
+    width: fit-content;
+    color: #E0E0E0;   
 }
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.historia{
+    line-height: 1.5;
+    width: 59rem;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size:xx-large;
+    
+   
+}
+
 
 
 
@@ -126,6 +145,7 @@ p{
 
 
 .card2{
+    margin-bottom: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -135,7 +155,6 @@ p{
     background-size: cover;
     object-fit: cover;
     padding: 5rem;
-    border-bottom: aliceblue solid 2px;
     justify-content: space-evenly;
     height: calc(75vh);
     gap: 2rem;
@@ -177,15 +196,6 @@ button {
 .card2 svg{
     height: 20px;
     align-items: flex-end;
-}
-
-.textEmpre{
-    width: 400px;
-    color: aliceblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: larger;
-    display: flex;
-    flex-flow: column;
 }
 
 
