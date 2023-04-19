@@ -6,27 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="StyleLogin.css">
+    <link rel="website icon" type="png" href="imagens/logo.png">
 </head>
 <body>
     <header>
         <div class="empresa">
             <!-- img -->
             <img src="imagens/logo.png" alt="logo da empresa Education Program" class="logo">
-            <p>Education Program</p>
+            <h3>Education Program</h3>
         </div>
     </header>
 
     <main class="card">
             <img src="imagens/Group 2.svg" alt="" class="img">
             <div class="login">
-                <label for="Nickname">Nickname</label>
-                <span class="dados"><input type="text" id="Nickname" name="Nickname" class="inputLogin" ><img src="imagens/nickname.png" alt="" class="imglogin"></span>
+                <div>
+                    <label for="Nickname">Nickname</label>
+                    <span class="dados"><input type="text" id="Nickname" name="Nickname" class="inputLogin" ><img src="imagens/nickname.png" alt="" class="imglogin"></span> 
+                </div>
 
-                <label for="Senha">Senha</label>
-                <span class="dados"><input type="password" name="senha" id="senha"  class="inputLogin"><img src="" alt=""><img src="" alt=""> <img src="imagens/senha.png" alt="" class="imglogin"></span>
-                
-                <button>LOGIN</button>
-                <P>Não tem conta? <a href="">Cadastre-se</a></P>
+                <div>
+                    <label for="Senha">Senha</label>
+                    <span class="dados"><input type="password" name="senha" id="senha"  class="inputLogin"><img src="" alt=""><img src="" alt=""> <img src="imagens/senha.png" alt="" class="imglogin"></span>
+                    <a href="">
+                        <p>Esqueci minha senha</p>
+                    </a>
+                </div>
+
+                <div>
+                    <button>LOGIN</button>
+                    <P>Não tem conta? <a href="cadastro.html">Cadastre-se</a></P>
+                </div>
             </div>
     </main>
 
