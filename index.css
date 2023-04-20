@@ -211,3 +211,8 @@ button {
     display: flex;
     flex-direction: column;
 }
+
+a{
+    all:unset;
+    cursor: pointer;
+}
