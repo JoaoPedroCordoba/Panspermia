@@ -216,3 +216,18 @@ a{
     all:unset;
     cursor: pointer;
 }
+
+
+@media(max-width: 1500px){
+    .card2-img{
+        width: 500px;
+        height: 400px;
+    }
+
+    .card1{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
