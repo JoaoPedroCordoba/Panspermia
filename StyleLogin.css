@@ -13,16 +13,17 @@ header{
     padding: 10px;
     border-bottom:solid white 2px ;
     display: grid;
-    grid-template-columns: 1fr 0.7fr ;
+    grid-template-columns: 1fr ;
     color: aliceblue;
     font-size: large;
+    justify-items: center;
+    justify-content: center;
 }
 
 .empresa{
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-self: end;
     gap: 1rem;
 }
 
@@ -128,4 +129,22 @@ a {
     opacity: 60%;
     cursor: pointer;
     border-bottom: 2px solid #8F8F8F;
+}
+
+@media(max-width:1500px){
+    .img{
+        width: 500px;
+        height: 400px;
+        
+    }
+}
+
+@media (max-width: 900px) {
+    .img {
+        display: none;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+    }
 }

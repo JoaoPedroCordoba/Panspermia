@@ -220,8 +220,8 @@ a{
 
 @media(max-width: 1500px){
     .card2-img{
-        width: 500px;
-        height: 400px;
+        width: 400px;
+        height: 300px;
     }
 
     .card1{
@@ -232,14 +232,28 @@ a{
 
 @media(min-height: 1000px){
     .card2-img{
-        width: 500px;
-        height: 400px;
+        width: 300px;
+        height: 200px;
     }
 
     .card1{
         width: 100%;
         height: 100%;
     }
+}
+@media(max-width:900px){
+    body{
+    width: 940px;
+    height: 100%;
+    }
+
+    
+
+    .card2{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 
