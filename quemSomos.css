@@ -43,7 +43,7 @@ h3{
 
 
 main{
-    height: 80vh;
+    height: 100vh;
     margin-left: 20%;
     margin-right: 20%;
     color: aliceblue;
@@ -110,3 +110,8 @@ li{
     }
 }
 
+@media(max-width: 700px){
+    .quemSomos{
+        width: 14rem;
+    }
+}
