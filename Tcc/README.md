@@ -1,2 +1,0 @@
-# Tcc
-trabalho de tcc 
