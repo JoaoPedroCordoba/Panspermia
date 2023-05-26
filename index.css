@@ -128,7 +128,7 @@ p{
     font-family: 'inter';
     font-style: normal;
     font-weight: 100rem;
-    font-size: 2.5rem; 
+    font-size: 1.7rem; 
     overflow-wrap: break-word;
     text-align: center;
 }
@@ -244,14 +244,30 @@ a{
 }
 
 
-@media(max-width: 1500px){
+@media(max-width: 1600px){
     .card2-img{
         width: 500px;
         height: 400px;
     }
 
+    .historia{
+        font-size: 1.6rem;
+    }
+
     .card1{
         width: 100%;
+    }
+}
+
+@media(max-width: 1500px){
+    .historia{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 1200px){
+    .historia{
+        font-size: 1.3rem;
     }
 }
 
@@ -265,7 +281,6 @@ a{
         width: 100%;
         height: 100%;
     }
-
 
 }
 @media(max-width:900px){
@@ -286,7 +301,7 @@ a{
 
 
     .historia {
-        font-size: 1.5rem; 
+        font-size: 1rem; 
     
         }
     
@@ -345,13 +360,17 @@ a{
 
     .historia
     {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
-
 
 
 }
 
+@media(max-width:300px){
+    .historia{
+        font-size: 0.6rem;
+    }
+}
 
 
 
