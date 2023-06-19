@@ -128,7 +128,7 @@ p{
     font-family: 'inter';
     font-style: normal;
     font-weight: 100rem;
-    font-size: 1.7rem; 
+    font-size: 1.5rem; 
     overflow-wrap: break-word;
     text-align: center;
 }
@@ -194,7 +194,13 @@ button {
     cursor: pointer;
 }
 
-.card2 button {
+.botoes{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.download {
     place-self: center;
     width: 300px;
     height: 100px;
@@ -210,6 +216,24 @@ button {
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     background-color: #3a2daf;
 }
+
+.Web{
+    place-self: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #2D1EA9;
+    text-align: center;
+    font-size: 40px;
+}
+
+.Web:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: #3a2daf;
+}
+
+
 
 .card2 svg{
     height: 20px;
@@ -361,6 +385,10 @@ a{
     .historia
     {
         font-size: 0.7rem;
+    }
+
+    .botoes{
+        flex-flow: column;
     }
 
 
