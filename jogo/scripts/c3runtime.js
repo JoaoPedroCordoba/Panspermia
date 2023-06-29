@@ -4790,6 +4790,7 @@ self.C3_JsPropNameTable = [
 	{Sprite9: 0},
 	{Creditos: 0},
 	{fim: 0},
+	{ColisaoSaida: 0},
 	{spawncobra: 0},
 	{personagemspaw: 0},
 	{quantdialogo: 0},
@@ -4991,7 +4992,7 @@ self.C3_ExpressionFuncs = [
 		() => -3,
 		() => "ataque monstro",
 		() => 16,
-		() => 19.47
+		() => 26.47
 ];
 
 
