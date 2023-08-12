@@ -152,12 +152,14 @@ p{
     font-size: 3rem;
     height: 30px;
     font-family: "Press Start 2P";
+    text-align: center;
 }
 
 .card2 p{
     color: #969595;
-    font-size: 1.6rem;
+    font-size: 3rem;
     font-family:  "Roboto", sans-serif;
+    text-align: center;
 }
 
 
@@ -219,13 +221,13 @@ button {
 
 .Web{
     place-self: center;
-    width: 150px;
+    width: 400px;
     height: 100px;
-    border-radius: 10px;
+    border-radius: 30px;
     color: aliceblue;
     background-color: #2D1EA9;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .Web:hover{
@@ -243,15 +245,15 @@ button {
 
 .sobre{
     padding: 1rem;
-    font-size:30px;
+    font-size:25px;
     color: aliceblue;
-    display: flex;
-    justify-content: space-around;
 }
+
 
 .info{
     display: flex;
-    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 a{
@@ -270,8 +272,8 @@ a{
 
 @media(max-width: 1600px){
     .card2-img{
-        width: 500px;
-        height: 400px;
+        width: 700px;
+        height: 500px;
     }
 
     .historia{
@@ -280,6 +282,11 @@ a{
 
     .card1{
         width: 100%;
+    }
+
+    .Web{
+        width: 300px;
+        height: 100px;
     }
 }
 
@@ -293,6 +300,11 @@ a{
     .historia{
         font-size: 1.3rem;
     }
+
+    .Web{
+        width: 300px;
+        height: 100px;
+    }
 }
 
 @media(min-height: 1000px){
@@ -304,6 +316,11 @@ a{
     .card1{
         width: 100%;
         height: 100%;
+    }
+
+    .Web{
+        width: 200px;
+        height: 100px;
     }
 
 }
@@ -321,6 +338,16 @@ a{
     .card2-img{
         width: 400px;
         height: 300px;
+    }
+
+    .Web{
+        width: 200px;
+        height: 100px;
+
+    }
+
+    .card2 p{
+        font-size: 1.5rem;
     }
 
 
@@ -391,12 +418,24 @@ a{
         flex-flow: column;
     }
 
+    .Web{
+        width: 130px;
+        height: 80px;
+        font-size: 30px;
+    }
+
 
 }
 
 @media(max-width:300px){
     .historia{
         font-size: 0.6rem;
+    }
+
+    .Web{
+        width: 100px;
+        height: 80px;
+        font-size: 30px;
     }
 }
 
